@@ -13,5 +13,32 @@
     width: 50%;
   }
 }
+.card-transform:hover {
+  transform: scale(0.9);
+}
+
+.font {
+  font-family: "libre baskerville", sans-serif;
+}
+
+.opinion-transform:hover {
+  transform: scale(1.1);
+}
+
+.bg-contacto {
+  background-color: #2d84f8;
+}
+
+.contacto-links {
+  list-style: none;
+}
+.contacto-links .links {
+  text-decoration: none;
+  color: white;
+}
+
+.contacto {
+  font-family: "red hat display", sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */

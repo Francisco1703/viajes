@@ -7,3 +7,34 @@
     width: 50%;
   }
 }
+
+.card-transform {
+  &:hover {
+    transform: $transform;
+  }
+}
+
+.font {
+  font-family: $libre-baskerville;
+}
+
+.opinion-transform {
+  &:hover {
+    transform: $transform-opinion;
+  }
+}
+.bg-contacto {
+  background-color: $color-sky-blue;
+}
+
+.contacto-links {
+  list-style: $list-style-none;
+  .links {
+    text-decoration: $text-decoration-none;
+    color: white;
+  }
+}
+
+.contacto {
+  font-family: $red-hat-display;
+}
